@@ -29,8 +29,8 @@ function App() {
         Step{step}: {messages[step - 1]?.text}
       </div>
       <div className="buttons">
-        <Button onClick={handlePrevious}>Previous</Button>
-        <Button onClick={handleNext}>Next</Button>
+        <Button onClick={handlePrevious}>👈Previous</Button>
+        <Button onClick={handleNext}>Next👉</Button>
       </div>
     </div>
   );
