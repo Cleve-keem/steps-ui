@@ -41,7 +41,7 @@
   color: #888;
 }
 
-.app{
+.app {
   width: 270px;
   display: flex;
   flex-direction: column;
@@ -50,14 +50,14 @@
   box-shadow: 2px 2px 8px lightgrey;
 }
 
-.steps{
+.steps {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
   font-size: 13px;
 }
 
-.step{
+.step {
   width: 20px;
   height: 20px;
   display: flex;
@@ -68,22 +68,22 @@
   background-color: lightgray;
 }
 
-.active{
+.active {
   background-color: #7950f2;
   color: #fff;
 }
 
-.message{
+.message {
   font-weight: bold;
 }
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
 }
 
-button{
+button {
   background-color: #7950f2;
   color: #fff;
 }
