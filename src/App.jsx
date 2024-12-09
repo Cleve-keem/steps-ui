@@ -29,11 +29,15 @@ function App() {
         Step{step}: {messages[step - 1]?.text}
       </div>
       <div className="buttons">
-        <button onClick={handlePrevious}>Previous</button>
-        <button onClick={handleNext}>Next</button>
+        <Button onClick={handlePrevious}>Previous</Button>
+        <Button onClick={handleNext}>Next</Button>
       </div>
     </div>
   );
+}
+
+function Button({ children, onClick }) {
+  return <button onClick={onClick}>{children}</button>;
 }
 
 export default App;
